@@ -18,7 +18,7 @@ const socialLinks = [
     label: "Twitter",
   },
   {
-    href: "https://linkedin.com/in/georgio-silvea",
+    href: "https://linkedin.com/in/georgio-silvea/",
     icon: Linkedin,
     label: "LinkedIn",
   },
