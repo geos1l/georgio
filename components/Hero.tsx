@@ -26,7 +26,7 @@ export default function Hero() {
           — aspiring ml engineer
         </p>
         <p className="text-sm text-[var(--fg-muted)]">
-          — currently building cool stuff
+          — currently building
         </p>
 
       </div>
