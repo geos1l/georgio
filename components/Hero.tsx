@@ -23,10 +23,10 @@ export default function Hero() {
           </a>
         </p>
         <p className="text-sm text-[var(--fg-muted)]">
-          — currently building
+          — aspiring ml engineer
         </p>
         <p className="text-sm text-[var(--fg-muted)]">
-          — aspiring ml engineer
+          — currently building cool stuff
         </p>
 
       </div>
