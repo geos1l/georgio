@@ -13,7 +13,7 @@ const navLinks = [
 
 const socialLinks = [
   {
-    href: "https://x.com/QuantumPi14",
+    href: "https://x.com/geos1l",
     icon: Twitter,
     label: "Twitter",
   },
@@ -41,7 +41,7 @@ export default function Nav() {
     <nav className="sticky top-0 z-50 w-full backdrop-blur-sm bg-[var(--bg)]/80 border-b border-[var(--border)]">
       <div className="max-w-4xl mx-auto px-6 h-12 flex items-center justify-between">
         <div className="flex items-center gap-6">
-          {navLinks.map((link) => (
+{navLinks.map((link) => (
             <Link
               key={link.href}
               href={link.href}
