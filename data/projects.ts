@@ -13,7 +13,7 @@ export const projects: Project[] = [
   {
     title: "nba career simulator",
     year: 2025,
-    description: "simulate entire NBA careers for any player, projecting stats, trades, and legacy across seasons.",
+    description: "simulate entire injury-free careers for your favorite NBA players, to see what they could've been.",
     thumbnail: "/projects/NbaCareerSim-thumbnail.png",
     href: "https://github.com/geos1l/NBA-Career-Simulator",
     liveUrl: "https://github.com/geos1l/NBA-Career-Simulator",

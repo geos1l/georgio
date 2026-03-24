@@ -39,7 +39,7 @@ export const hackathons: Hackathon[] = [
     slug: "utra-hacks",
     year: 2026,
     result: "built match overlay",
-    description: "real-time livestream + LLM commentary system for sports.",
+    description: "real-time scoreboard + live LLM commentary system for robotics track race.",
     story: "At UTRA Hacks we built Match Overlay — a system that injects AI commentary directly into a live sports stream. We captured game state in real time (score, player positions, key events), fed it into an LLM with a prompt tuned for colour commentary, and pushed the generated text as an overlay onto the video feed with sub-second latency. The hardest part was keeping the commentary coherent across multiple LLM calls without it sounding repetitive — we ended up building a rolling context window that summarised recent commentary before each new generation.",
     thumbnail: "/projects/UTRA-thumbnail.png",
     demoMedia: "/projects/utrahacks-demo.png",
