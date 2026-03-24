@@ -3,7 +3,6 @@ import { Geist, Geist_Mono, Cormorant_Garamond } from "next/font/google";
 import "./globals.css";
 import Script from "next/script";
 import Nav from "@/components/Nav";
-import SplashCursor from "@/components/SplashCursor";
 import { Analytics } from "@vercel/analytics/next";
 
 const geistSans = Geist({
@@ -45,7 +44,6 @@ export default function RootLayout({
     >
       <body className="min-h-screen">
         <Script id="theme-init" strategy="beforeInteractive">{`(function(){try{var t=localStorage.getItem('theme');if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches)){document.documentElement.classList.add('dark')}}catch(e){}})();`}</Script>
-        <SplashCursor />
         <div className="relative z-10 flex flex-col min-h-screen">
           <Nav />
           <main className="flex-1 w-full">{children}</main>
