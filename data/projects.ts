@@ -16,7 +16,7 @@ export const projects: Project[] = [
     description: "simulate entire injury-free careers for your favorite NBA players, to see what they could've been.",
     thumbnail: "/projects/NbaCareerSim-thumbnail.png",
     href: "https://github.com/geos1l/NBA-Career-Simulator",
-    liveUrl: "https://github.com/geos1l/NBA-Career-Simulator",
+    liveUrl: "https://nbacareersim.win",
     tags: ["TypeScript", "React", "Python"],
   },
   {
