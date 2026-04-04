@@ -20,15 +20,6 @@ export const projects: Project[] = [
     tags: ["TypeScript", "React", "Python"],
   },
   {
-    title: "skauti",
-    year: 2026,
-    description: "offline-first FRC scouting PWA with QR/AirDrop P2P sync. adopted by real teams within a week.",
-    thumbnail: "/projects/Skauti-thumbnail.png",
-    href: "https://github.com/geos1l/skauti",
-    liveUrl: "https://skauti.ca",
-    tags: ["TypeScript", "PWA", "QR"],
-  },
-  {
     title: "incinerator",
     year: 2026,
     description: "Windows disk cleanup app — score, stage, and incinerate files with a floating drag-and-drop firepit",
@@ -36,5 +27,14 @@ export const projects: Project[] = [
     href: "https://github.com/geos1l/Incinerator-Windows",
     liveUrl: "https://github.com/geos1l/Incinerator-Windows/releases/tag/v1.0.1",
     tags: ["TypeScript"],
+  },
+  {
+    title: "skauti",
+    year: 2026,
+    description: "offline-first FRC scouting PWA with QR/AirDrop P2P sync. adopted by real teams within a week.",
+    thumbnail: "/projects/Skauti-thumbnail.png",
+    href: "https://github.com/geos1l/skauti",
+    liveUrl: "https://skauti.ca",
+    tags: ["TypeScript", "PWA", "QR"],
   },
 ];
