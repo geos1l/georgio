@@ -5,13 +5,13 @@ export interface GalleryImage {
 
 export const galleryImages: GalleryImage[] = [
   { src: "/gallery/IMG_8064.JPG", caption: "Community Event @ United" },
-  { src: "/gallery/IMG_8205.JPG", caption: "late night walk views" },
+  { src: "/gallery/IMG_8205.JPG", caption: "late night walk" },
   { src: "/gallery/IMG_8331.JPG", caption: "Upstairs PAC" },
   { src: "/gallery/IMG_8353.JPG", caption: "random snowman" },
   { src: "/gallery/IMG_8360.JPG", caption: "Café Cursor" },
   { src: "/gallery/IMG_8631.JPG", caption: "elite hackathon setup" },
   { src: "/gallery/IMG_8652.jpg", caption: "undergraduate math faculty awards ceremony" },
-  { src: "/gallery/IMG_8684.JPG", caption: "awards ceremony diff ppl" },
+  { src: "/gallery/IMG_8684.JPG", caption: "awards ceremony p2" },
   { src: "/gallery/IMG_8891.JPG", caption: "funmix esports/pool in markham" },
   { src: "/gallery/IMG_8999.JPG", caption: "HackCanada!" },
   { src: "/gallery/IMG_9039.jpg", caption: "claude builders club on campus" },
@@ -21,4 +21,5 @@ export const galleryImages: GalleryImage[] = [
   { src: "/gallery/C12AF7E9-D3E4-43B7-AF08-951C3F7FFA65.JPG", caption: "utra hacks team!!" },
   { src: "/gallery/hackhive1.jpg", caption: "cooked (hackhive)" },
   { src: "/gallery/hackhive3.jpg", caption: "cooking (hackhive)" },
+  { src: "/gallery/IMG_9097.JPG", caption: "Socratica Symposium" },
 ];

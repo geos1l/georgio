@@ -18,7 +18,7 @@ export default function GalleryPage() {
             className="text-5xl text-[var(--fg)] leading-tight"
             style={{ fontFamily: "var(--font-instrument-serif)" }}
           >
-            scenes from my life
+            scenes from my life (recently)
           </h1>
         </div>
 
