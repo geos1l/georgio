@@ -9,6 +9,7 @@ export interface Hackathon {
   demoMedia?: string;
   demoIsVideo?: boolean;
   href?: string;
+  liveHref?: string;
   project?: string;
   tags?: string[];
   gallery?: string[];
@@ -26,6 +27,7 @@ export const hackathons: Hackathon[] = [
     demoMedia: "/projects/hackcanada-demo.png",
     demoIsVideo: false,
     href: "https://github.com/geos1l/scorched",
+    liveHref: "https://scorched-tau.vercel.app/",
     project: "scorched",
     tags: ["PyTorch", "XGBoost", "FastAPI", "Mapbox", "Python"],
     gallery: [

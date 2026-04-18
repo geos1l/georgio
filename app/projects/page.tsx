@@ -19,6 +19,7 @@ export default function ProjectsPage() {
       description: h.description,
       thumbnail: h.thumbnail,
       href: h.href ?? "#",
+      liveUrl: h.liveHref,
       badge: h.name,
     })),
   ].sort((a, b) => b.year - a.year);
