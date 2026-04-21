@@ -26,7 +26,15 @@ export default function Hero() {
           — aspiring ml engineer
         </p>
         <p className="text-sm text-[var(--fg-muted)]">
-          — currently building
+          — currently building{" "}
+          <a
+            href="https://github.com/geos1l/Clive"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline underline-offset-4 hover:text-[var(--fg)] transition-colors"
+          >
+            clive
+          </a>
         </p>
 
       </div>

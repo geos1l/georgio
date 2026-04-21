@@ -31,7 +31,7 @@ export const projects: Project[] = [
   {
     title: "skauti",
     year: 2026,
-    description: "offline-first FRC scouting PWA with QR/AirDrop P2P sync. adopted by real teams within a week.",
+    description: "offline-first FRC scouting PWA with QR/AirDrop P2P sync. adopted by teams across North America.",
     thumbnail: "/projects/Skauti-thumbnail.png",
     href: "https://github.com/geos1l/skauti",
     liveUrl: "https://skauti.ca",
